@@ -1,0 +1,34 @@
+/* This is the external css style sheet for the website that */
+/* allows use of css without cluttering up the coding of the website */
+/*------------------------------------------------------*/
+/* This is for the body of the text */
+/*------------------------------------------------------*/
+body {
+	background-color: azure;
+	color: darkgreen;
+}
+/*------------------------------------------------------*/
+/* This is for any headers using <h1> */
+/*------------------------------------------------------*/
+h1 {
+    font-family:sans-serif;
+    border-style: dotted;
+}
+/*------------------------------------------------------*/
+h2{
+    text-decoration: underline;
+}
+/*------------------------------------------------------*/
+/* This is for any text using <sub> */
+/*------------------------------------------------------*/
+sub {
+    font-family: monospace;
+}
+/*------------------------------------------------------*/
+/* This is for any objects such as images that require to be aligned center in the page */
+/*------------------------------------------------------*/
+    .center {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                        }
