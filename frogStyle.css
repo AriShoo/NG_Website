@@ -13,10 +13,14 @@ body {
 h1 {
     font-family:sans-serif;
     border-style: dotted;
+    text-align: center;
 }
 /*------------------------------------------------------*/
-h2{
+h2 {
+    font-family: sans-serif;
     text-decoration: underline;
+    color: cadetblue;
+    text-align: center;
 }
 /*------------------------------------------------------*/
 /* This is for any text using <sub> */
@@ -31,4 +35,15 @@ sub {
                     display: block;
                     margin-left: auto;
                     margin-right: auto;
+                    border: 3px solid green;
+                    padding: 10px;
                         }
+
+form {
+  text-align: center;
+}
+
+textarea {
+    width: 400px;
+    height: 250px;
+}
