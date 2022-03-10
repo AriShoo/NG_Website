@@ -20,7 +20,7 @@ h2 {
     font-family: sans-serif;
     text-decoration: underline;
     color: cadetblue;
-    text-align: center;
+    text-align: center, left;
 }
 /*------------------------------------------------------*/
 /* This is for any text using <sub> */
@@ -37,6 +37,7 @@ sub {
                     margin-left: auto;
                     margin-right: auto;
                     border: 3px solid green;
+                    border-radius: 5px;
                     padding: 10px;
                         }
 /*------------------------------------------------------*/
@@ -101,4 +102,21 @@ a:hover {
 a:active {
   color: wheat;
     text-decoration: none;
+}
+/*------------------------------------------------------*/
+/* This is for borders */
+/*------------------------------------------------------*/
+p.solid {
+    border-style: solid;
+    border-radius: 5px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+/*------------------------------------------------------*/
+/* This is for centering objects in a wrap */
+/*------------------------------------------------------*/
+.wrapper {
+    text-align: center;
 }
