@@ -20,7 +20,7 @@ h2 {
     font-family: sans-serif;
     text-decoration: underline;
     color: cadetblue;
-    text-align: center, left;
+    text-align: center;
 }
 /*------------------------------------------------------*/
 /* This is for any text using <sub> */
@@ -69,7 +69,6 @@ textarea {
 }
 
 .button {
-  float: center;
     border-radius: 12px;
 }
 
